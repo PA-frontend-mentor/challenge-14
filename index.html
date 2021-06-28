@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <!-- About
+    Services
+    Projects
+    Contact
+
+    We are creatives
+
+    Transform your brand
+
+    We are a full-service creative agency specializing in helping brands grow fast. 
+    Engage your clients through compelling visuals that do most of the marketing for you.
+
+    Learn more
+
+    Stand out to the right audience
+
+    Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+
+    Learn more
+
+    Graphic design
+    Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+
+    Photography
+    Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+
+    Client testimonials
+
+    We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+    Emily R.
+    Marketing Director
+
+    Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
+    Thomas S.
+    Chief Operating Officer
+
+    Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+    Jennie F.
+    Business Owner
+
+    About
+    Services
+    Projects
+    Contact -->
+
+    <header>
+      <nav>
+        <img src="./images/logo.svg" alt="logo">
+        <li>
+          <ul>About</ul>
+          <ul>Services</ul>
+          <ul>Projects</ul>
+          <ul>Contact</ul>
+        </li>
+
+        <!-- <img src="./images/icon-hamburger.svg" alt="hambergur menue" class="hamburger-menue"> -->
+        <input type="checkbox" id="hamburger"/>
+
+        <label for="hamburger">
+          <img src="./images/icon-hamburger.svg" alt="hambergur menue" class="hamburger-menue">
+        </label>
+
+        
+        <div class="mobile-nav">
+          <ul>About</ul>
+          <ul>Services</ul>
+          <ul>Projects</ul>
+          <ul>Contact</ul>
+        </div>
+
+      </nav>
+
+      <div class="header-title">
+        <h1 class="fancy-font">We are creatives</h1>
+        <img src="./images/desktop/image-header.jpg" alt="arrow" class="img-header">
+        <img src="./images/icon-arrow-down.svg" alt="down-arrow" class="arrow-down">
+      </div>
+    </header>   
+
+
+    <main>
+
+      <div class="flow">        
+        <div class="data">
+          <h1 class="fancy-font">Transform your brand</h1>
+          <p>
+            We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.
+          </p>
+          <button class="fancy-font">Learn More</button>
+        </div>                
+        <img src="./images/desktop/image-transform.jpg" alt="egg image">
+      </div>
+
+      <div class="flow reversed">
+        <div class="data">
+          <h1 class="fancy-font">Stand out to the right audience</h1>
+          <p>
+            Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+          </p>
+          <button class="fancy-font">Learn More</button>
+        </div>
+        
+        <img src="./images/desktop/image-stand-out.jpg" alt="shake image">
+      </div>
+
+      <div class="graphic-design-section">
+        <div>
+          <img src="./images/desktop/image-graphic-design.jpg" alt="cherry image">
+
+          <div class="details">
+            <h1 class="fancy-font">Graphic design</h1>
+            <p>
+              Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+            </p>
+          </div>
+
+        </div>
+
+        <div>
+          <img src="./images/desktop/image-photography.jpg" alt="orange image">
+
+          <div class="details">
+            <h1 class="fancy-font">Photography</h1>
+            <p>
+              Increase your credibility by getting the most stunning, high-quality photos that improve your business image
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="clients">
+        <h1 class="fancy-font">Client testimonials</h1>
+
+        <div class="clients-test">
+
+          <div>
+            <img src="./images/image-emily.jpg" alt="client image">
+            <p>
+              We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+            </p>
+            <p class="fancy-font">Emily R.</p>
+            <p class="position">Marketing Director</p>
+          </div>
+
+          <div>
+            <img src="./images/image-thomas.jpg" alt="client image">
+            <p>
+              Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
+            </p>
+            <p class="fancy-font">Thomas S.</p>
+            <p class="position">Chief Operating Officer</p>
+          </div>
+
+          <div>
+            <img src="./images/image-jennie.jpg" alt="client image">
+            <p>
+              Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!        
+            </p>
+            <p class="fancy-font">Jennie F.</p>
+            <p class="position">Business Owner</p>
+          </div>
+
+        </div>
+      </div>
+      <div class="cubes">
+
+        <div>
+          <div>
+            <img src="./images/desktop/image-gallery-milkbottles.jpg" alt="cube">
+          </div>
+          <div>
+            <img src="./images/desktop/image-gallery-orange.jpg" alt="cube">
+          </div>
+        </div>
+
+        <div>
+          <div>
+            <img src="./images/desktop/image-gallery-cone.jpg" alt="cube">
+          </div>
+          <div>
+            <img src="./images/desktop/image-gallery-sugarcubes.jpg" alt="cube">
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+    <footer>
+      <div class="logo"></div>
+
+      <div>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Projects</a>
+      </div>
+
+      <div>
+        <img src="./images/icon-facebook.svg" alt="facebook">
+        <img src="./images/icon-instagram.svg" alt="instagram">
+        <img src="./images/icon-twitter.svg" alt="twitter">
+        <img src="./images/icon-pinterest.svg" alt="pintrest">
+      </div>
+
+    </footer>
+    
+  </body>
+
+   <script>
+        document.addEventListener("DOMContentLoaded", function(event) { 
+            var scrollpos = localStorage.getItem('scrollpos');
+            if (scrollpos) window.scrollTo(0, scrollpos);
+        });
+
+        window.onbeforeunload = function(e) {
+            localStorage.setItem('scrollpos', window.scrollY);
+        };
+    </script>
+
+</html>
